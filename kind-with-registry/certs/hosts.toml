@@ -1,0 +1,3 @@
+[host."http://kind-registry:5000"]
+  ca = "/etc/containerd/certs.d/kind-registry/domain.crt"
+  capabilities = ["pull", "resolve"]
